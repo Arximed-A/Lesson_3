@@ -1,0 +1,119 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* CSS параметр */
+/* css свойство : значение свойства ; */
+
+* {
+	color: grey;
+}
+.r {
+	color: red;
+}
+.g {
+	color: green;
+}
+.b {
+	color: blue;
+}
+
+.body {
+	color: aqua;
+	/* данный класс окрашивает очень мало текста, т.к. у каждого тэга свой класс, что является более приоритетным */
+}
+.header {
+	color: purple;
+}
+/* данный класс не меняет цвет совсем, т.к. у каждого тэга свой класс, что является более приоритетным */
+.h1 {
+	color: royalblue;
+}
+/* Уточнил */
+.h1.title {
+	color: black;
+}
+/* Супер пупер уточнил */
+.h1.title.r {
+	color: gold;
+}
+/* Конткретно =)*/
+#Content {
+	color: black;
+}
+.text.g {
+	color: blueviolet;
+}
+p.g {
+	color: tomato;
+}
+div p {
+	color: red;
+}
+.g > p {
+	color: lightcoral;
+}
+.g + p {
+	color: greenyellow;
+}
+.g ~ p {
+	color: rosybrown;
+}
+
+.title {
+}
+.under__title {
+}
+.main {
+}
+.text {
+}
+.nav {
+}
+.h3 {
+}
+.deepl {
+}
+.h2 {
+}
+.ol {
+	color: slategray;
+}
+.li {
+}
+.ul {
+	color: gold;
+}
+.footer {
+	color: black;
+}
+p {
+	color: chocolate;
+}
